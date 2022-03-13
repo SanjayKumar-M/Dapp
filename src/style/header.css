@@ -1,0 +1,175 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+    
+
+
+}
+.header{
+  
+    background-color:#0f0e13;
+    background-image: 
+    radial-gradient(at 0% 0%, hsla(253,16%,7%,1) 0, transparent 50%), 
+    radial-gradient(at 50% 0%, hsla(225,39%,30%,1) 0, transparent 50%), 
+    radial-gradient(at 100% 0%, hsla(339,49%,30%,1) 0, transparent 50%);
+
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 8%;
+}
+
+.logo {
+    margin-right: auto;
+    padding: 0.6cm 2cm;
+    
+}
+nav{
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    padding:20px 2%;
+    
+}
+
+
+nav ul li a {
+    font-family: 'Noto Sans', sans-serif;
+    color: beige;
+    font-size: x-large;
+    text-decoration: none;
+    
+
+
+}
+
+nav ul li a:hover {
+    transition: 0.5s;
+    color:wheat;
+
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+    padding: 0.4cm 0.5cm;
+
+}
+
+nav ul li::after {
+
+    width: 0%;
+    content: '';
+    display: block;
+    margin: auto;
+    height: 2px;
+    background: blanchedalmond;
+    transition: 0.4s;
+
+}
+
+nav ul li:hover::after {
+    width: 100%;
+}
+nav ul{
+    padding-top: 0.7cm;
+}
+
+
+
+#about p{
+
+    font-size: 2cm;
+
+}
+
+.content{
+    padding-bottom: 6cm;
+}
+
+.content h1{
+
+    font-size: 2cm;
+    background: -webkit-linear-gradient(rgb(151, 109, 109), rgb(194, 231, 152));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    padding-left: 4cm;
+    padding-top: 5cm;
+
+}
+
+.content p{
+    color: cyan;
+    padding-left: 4cm;
+    font-size: 1cm;
+    word-spacing: 17px;
+}
+
+.about h1{
+
+    color: aliceblue;
+    padding-top: 10cm;
+    display: flex;
+    word-spacing: 11px;
+    justify-content: center;
+
+    font-size: 2cm;
+}
+
+.header nav ul button{
+
+    font-size: x-large;
+    margin-right: 10px;
+    border-radius: 20px;
+    margin-left: 10px;
+
+    margin-block-end:10px;
+    
+
+    
+    transition: 0.5s;
+    color: aqua;
+    background-color: transparent;
+   
+  
+}
+.about ul li{
+    list-style:none ;
+    color: aliceblue;
+    padding-top: 2cm;
+    font-size: 1cm;
+}
+
+.one{
+    padding-left: 5cm;
+
+}
+.two{
+    padding-left: 8cm;
+}
+.three{
+    padding-left: 13cm;
+}
+
+.four{
+    padding-left: 17cm;
+}
+
